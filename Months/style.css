@@ -1,0 +1,32 @@
+body{
+BackGround-color:DarkCyan;
+color:white;
+
+}
+
+
+
+
+.navButton ul{
+list-style: none;
+}
+
+.navButton li{
+display: inline;
+}
+
+nav{
+display: flex;
+}
+
+.logo{
+flex: 1;
+background-color: red;
+
+}
+
+.navButton{
+flex: 1;
+background-color: yellow;
+
+}

@@ -1,0 +1,43 @@
+.centerText {
+    text-align: center;
+    /*  COLORS
+    background-color: turquoise;
+    background-color: aquamarine;
+    background-color: darkcyan;
+    background-color:darkslategrey;
+    background-color:hotpink;    
+    background-color: darkolivegreen;
+    background-color:lightseagreen;
+    */
+}
+.flexContainer h1{
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexItem1 {
+    flex: 1;
+    background-color:coral;
+}
+.flexItem2 {
+    flex: 1;
+    background-color:deepskyblue ;
+}
+
+.blockOne{
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin-right: 100px;
+    display: inline-block;
+    background-color:bisque;
+}
+.blockTwo{
+    padding-left: 50px;
+    padding-right: 100px;
+    display: inline-block;
+    background-color: cornflowerblue;
+}
