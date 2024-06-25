@@ -1,0 +1,377 @@
+/*top border for page*/
+.topBorder {
+    background-color: rgb(38,35,54);
+    height: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid rgb(45,42,61);
+    display: flex;
+}
+.Topleft{
+    background:linear-gradient(180deg, #eee,#eeeeee,rgb(70, 51, 70));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex: 1;
+    margin-left: 20px;
+}
+.Topleft h3{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.Topleft h4{
+    margin-top: -35px;
+}
+.TopButton{
+    flex: 1;
+    margin-top: 65px;
+}
+#O2{
+    height: 70px;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+#TopButton{
+    font-size: 20px;
+    background-color: rgb(38,35,54);
+    border-color:rgb(38,35,54);
+    color:rgb(101, 97, 121) ;
+    border-radius: 8px;
+}
+#TopButton:hover{
+    transform: scale(1.1);
+    background-color: rgb(74, 67, 114);
+    border-color: rgb(74, 67, 114);
+}
+
+/*section with title and info*/
+.title{
+    background-color: rgb(38,35,54);
+    color: rgb(93,100,104);
+    height: 450px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.space{
+    flex: 1;
+}/*Aligns to middle*/
+.Title{
+    flex: 2;
+    margin-top: 70px;
+}
+.Space{
+    flex: 1;
+}
+/*font size for tilte*/
+.Title h1{
+    color: rgb(255,255,255);
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.Title h2{
+    background:linear-gradient(180deg, #eee, rgb(85, 79, 109));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Title button{
+    background-image: linear-gradient(#8f7da3 , rgb(109, 108, 139) 55%,rgb(97, 93, 131) 100%);
+    color: #eee;
+    border: rgb(82,79,108);
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+.Title button:hover{
+    transform: scale(1.5);
+}
+
+
+
+/*first row with the 4 colloms*/
+.first{
+    background-color: rgb(242,155,102);
+    height: 300px;
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.first h2{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+    color: white;
+}
+.first h3{
+    margin-top: -20px;
+    margin-left: 40px;
+    background:linear-gradient(180deg, #eee, rgb(173, 172, 173));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row1{
+    flex: 1;
+    margin-right: 20px;
+    margin-right: 35px;
+}
+#Pic{
+    height: 50px;
+}
+#PicM{
+    height: 110px;
+    margin-left: -13px;
+    margin-top: -10px;
+}
+
+
+
+
+
+/*second row with the 4 colloms*/
+.second{
+    background-color: rgb(232,232,234);
+    height: 575px;
+    display: flex;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row2{
+    flex: 1;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-left: 60px;
+    height: 415px;
+    background-color: aliceblue;
+}
+.Triangle{
+    height: 0px;
+    width: 0px;
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:20px solid rgb(111,108,137);;
+    margin-left: 110px;
+    margin-top: -3px;
+}
+.Top{
+    background-color: rgb(111,108,137);
+    height: 140px;
+    margin-top: -80px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.Name{
+    padding-top: 10px;
+    margin-top: 40px;
+    height: 40px;
+}
+.Name h2{
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(232,232,234);
+}
+.Price{
+    height: 40px;
+    border-bottom: 3px solid rgb(232,232,234);
+}
+.GB{
+    padding-top: 15px;
+    padding-right: 40px;
+    color: rgb(151, 147, 173);
+    border-bottom: 3px solid rgb(232,232,234);
+}
+.Ex ul{
+    padding-right: 40px;
+    color: rgb(151, 147, 173);
+    margin-bottom: 5px;
+}
+.Price h3{
+    margin-top: 50px;
+    margin-right: 40px;
+    color: #eee;
+}
+.W{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(232,232,234);
+}
+.Price p{
+    margin-top: -35px;
+    margin-left: 70px;
+    color: rgb(233,102,39);
+}
+.Grey{
+    background-color: #eee;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgb(232,232,234);
+}
+.Gray{
+    background-color: #eee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(232,232,234);
+}
+.second h2{
+    background:linear-gradient(180deg, #eee, rgb(173, 172, 173));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*third row with the 4 colloms*/
+.third{
+    background-color: rgb(38,35,54);
+    height: 300px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li::marker{
+    color: rgb(255,165,0);
+}
+.third h3{
+    margin-left: 60px;
+    background:linear-gradient(180deg, #eee, rgb(75, 58, 75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row3{
+    flex: 1;
+    margin-right: 20px;
+}
+.third h3{
+    color: rgb(139,136,155);
+}
+.third li{
+    margin-left: 70PX;
+    color: white;
+}
+.third ul{
+    color: rgb(139,136,155);
+    margin-left: 20px;
+}
+
+/*Bottom of body*/
+.BottomBody{
+    background-color: rgb(50,47,64);
+    height: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.row4{
+    flex: 1;
+    margin-left: 40px;
+}
+#Sorces1{
+    height: 120px;
+    width: 330px;
+    margin-top: 10px;
+}
+#Sorces2{
+    height: 65px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#Sorces{
+    height: 300px;
+    width: 400px;
+    margin-top: -80px;
+}
+#Sorces3{
+    height: 300px;
+    width: 350px;
+    margin-top: -80px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+/*the border form the bottom of page*/
+.bottomBorder{
+    background-color: rgb(26,25,33);
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+#Oo2{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.BottomLeft{
+    flex: 1;
+    margin-left: 10px;
+}
+.BottomLeft h3{
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+.BottomRight{
+    margin-top: 20px;
+    flex: 1;
+}
+
+/*BUTTON*/
+#Circle{
+    background-color: rgb(82,79,108);
+    border-color: rgb(82,79,108);
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+#SignUp{
+    background-image: linear-gradient(#ffc89b, #e77a35 51%, #ec5f0e 100%);
+    color: #eee;
+    border: #d49434;
+    padding-bottom: 50px;
+    text-size-adjust: 40px;
+    text-align: center;
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+#SignUp:hover{
+    transform: scale(1.2);
+}
+#ShopNow{
+    background-image: linear-gradient(#ffcda5, #ee8a4d 51%, #f57429 100%);
+    color: #eee;
+    border: #ffaf54;
+    text-size-adjust: 40px;
+    text-align: center;
+    height: 40px;
+    width: 130px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+#ShopNow:hover{
+    transform: scale(1.2);
+}
+#Goggle{
+    margin-left: 470px;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 25px;
+}
+#X{
+    height: 50px;
+    width: 70px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+#FB{
+    height: 40px;
+    width: 60px;
+    margin-bottom: 25px;
+    margin-left: -15px;
+}
+#Wifi{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+}
