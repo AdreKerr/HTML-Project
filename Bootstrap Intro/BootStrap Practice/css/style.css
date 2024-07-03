@@ -1,0 +1,46 @@
+.itemOne{
+    background-color: navy;
+}
+.itemTwo{
+    background-color: blue;
+}
+/*This is useing teh CSS condition*/
+/*min-widith <= Unit measurment*/
+/*max-width >= Unit measurment*/
+/*
+@media(min-width:600px ){
+    .itemOne {
+        background-color: pink;
+    }
+}
+*/
+@media(max-width: 950px){
+    .itemOne{
+        background-color: palevioletred;
+    }
+}
+
+.itemThree{
+    background-color: lightblue;
+}
+.BoxOne{
+    background-color: cadetblue;
+}
+.BoxTwo{
+    background-color: cyan;
+}
+.BoxThree{
+    background-color: cornflowerblue;
+}
+.BoxFour{
+    background-color: aquamarine;
+}
+.boxOne{
+    background-color: coral;
+}
+.boxTwo{
+    background-color: olivedrab;
+}
+.boxThree{
+    background-color: crimson;
+}

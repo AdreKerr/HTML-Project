@@ -7,6 +7,7 @@
     display: flex;
 }
 .Topleft{
+    display: flex;
     background:linear-gradient(180deg, #eee,#eeeeee,rgb(70, 51, 70));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -16,13 +17,30 @@
 .Topleft h3{
     margin-top: 50px;
     font-size: 30px;
+    margin-left: 10px;
 }
 .Topleft h4{
-    margin-top: -35px;
+    margin-top: 80px;
+    margin-left: -118px;
 }
 .TopButton{
     flex: 1;
-    margin-top: 65px;
+}
+.TopButton ul{
+    list-style: none;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.TopButton li{
+    display: inline;
+    margin-left: 20px;
+}
+.TopButton a{
+    color: rgb(93,100,104);
+    text-decoration: none;
+}
+.topBorder a:hover{
+    color: rgb(233,102,39);
 }
 #O2{
     height: 70px;
@@ -30,18 +48,6 @@
     margin-left: 40px;
     margin-top: 40px;
     border-radius: 5px;
-}
-#TopButton{
-    font-size: 20px;
-    background-color: rgb(38,35,54);
-    border-color:rgb(38,35,54);
-    color:rgb(101, 97, 121) ;
-    border-radius: 8px;
-}
-#TopButton:hover{
-    transform: scale(1.1);
-    background-color: rgb(74, 67, 114);
-    border-color: rgb(74, 67, 114);
 }
 
 /*section with title and info*/
@@ -301,6 +307,7 @@ li::marker{
     margin-left: 20px;
 }
 .BottomLeft{
+    color: rgb(50,47,64);
     flex: 1;
     margin-left: 10px;
 }
