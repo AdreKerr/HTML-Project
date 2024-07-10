@@ -36,7 +36,7 @@
     font-size: 20px;
 }
 .Four ul{
-    padding-left: 20px;
+
     font-size: 20x;
 }
 .Four h1{
@@ -69,18 +69,46 @@
 }
 
 /*Media*/
-@media(min-width: 770px){
+@media(min-width: 992px){
+    .Smart{
+        font-size: 40px;
+        border-right: 1px solid black;
+    }
+    .Stable{
+        font-size: 40px;
+    }
+    .Strong{
+        font-size: 40px;
+        border-right: 1px solid black;
+    }
+    .Four{
+        font-size: 40px;
+    }
+    .Four li{
+        font-size: 40px;
+    }
+    .Four h3{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .Four h1{
+        font-size: 40px;
+    }
+    .man{
+        margin-left: 200px;
+    }
+
+}
+
+@media(min-width: 700px){
     #More1{
-        padding-right: 25px;
-        padding-left: 25px;
         font-size: 20px;
 
     }
     #More{
-        padding-left: 25px;
-        padding-right: 25px;
         font-size: 20px;
     }
+    
     #Top{
         font-size: 20px;
         margin-top: 10px;
@@ -88,14 +116,12 @@
     }
     .Smart{
         font-size: 30px;
-        border-right: 1px solid black;
     }
     .Stable{
         font-size: 30px;
     }
     .Strong{
         font-size: 30px;
-        border-right: 1px solid black;
     }
     .Four{
         font-size: 30px;
@@ -104,15 +130,13 @@
         font-size: 30px;
     }
     .Four h3{
-        font-size: 40px;
+        font-size: 50px;
         margin-bottom: 20px;
     }
     .Four h1{
         font-size: 30px;
     }
     .man{
-        margin-left: 450px;
-        margin-top: 50px;
+        margin-left: 70px;
     }
-
 }
